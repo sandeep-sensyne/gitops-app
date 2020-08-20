@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  gitops-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-08-20T17:26:54.242352+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 10cc5f8a86cf7aff7535515704ca6095ff3eb94a5cdadab787ac55594c88845a
+    name: gitops-app
+    type: application
+    urls:
+    - https://sandeep-sensyne.github.io/gitops-app/gitops-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-08-20T17:26:54.240212+01:00"
