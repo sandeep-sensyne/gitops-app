@@ -3,7 +3,17 @@ entries:
   gitops-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-21T16:48:48.916641+01:00"
+    created: "2020-08-24T14:41:31.292244+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 725a43997cae01dfba086ca29a430918bb52a65251ad6728e3e725e13e5dbb37
+    name: gitops-app
+    type: application
+    urls:
+    - https://sandeep-sensyne.github.io/gitops-app/gitops-app-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-08-24T14:41:31.291423+01:00"
     description: A Helm chart for Kubernetes
     digest: da8b6c41693c2c6e6a81bb201b384e1e7f57dc9aa429c71859c73c6ff374a016
     name: gitops-app
@@ -13,7 +23,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-21T16:48:48.913337+01:00"
+    created: "2020-08-24T14:41:31.286897+01:00"
     description: A Helm chart for Kubernetes
     digest: 2abc7cfd1d48b0e82f1653f168ec24af5a660a3386039fb830c9057bdcdafe1d
     name: gitops-app
@@ -23,7 +33,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-21T16:48:48.910139+01:00"
+    created: "2020-08-24T14:41:31.252453+01:00"
     description: A Helm chart for Kubernetes
     digest: 10cc5f8a86cf7aff7535515704ca6095ff3eb94a5cdadab787ac55594c88845a
     name: gitops-app
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://sandeep-sensyne.github.io/gitops-app/gitops-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-08-21T16:48:48.907559+01:00"
+generated: "2020-08-24T14:41:31.234039+01:00"
