@@ -1,0 +1,3 @@
+creation_rules:
+  - filename_regex: dev-secret-sops-values.yaml
+    azure_keyvault: https://uk-dev-keyvault.vault.azure.net/keys/uk-dev-sops-tyk/3933f9208f0f4192828db88385a5b3a3
