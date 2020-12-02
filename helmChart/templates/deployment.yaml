@@ -35,7 +35,7 @@ spec:
             - "sh"
           args:
             - "-c"
-            - "echo 'alpine:3.12.1' > /tmp"
+            - "echo 'alpine:3.12.1' > /tmp/log.txt"
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
