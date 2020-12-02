@@ -27,6 +27,15 @@ spec:
       serviceAccountName: {{ include "gitops-app.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      initContainers:
+        - name: test-init-cont
+          image: "alpine:3.12.1"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          command:
+            - "sh"
+          args:
+            - "-c"
+            - "echo 'alpine:3.12.1' > /tmp"
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
