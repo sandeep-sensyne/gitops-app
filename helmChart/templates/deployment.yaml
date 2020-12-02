@@ -35,7 +35,7 @@ spec:
             - "sh"
           args:
             - "-c"
-            - "echo 'alpine:3.12 extra' > /tmp/log.txt && cat /tmp/log.txt"
+            - "echo 'alpine:3.12 extra1' > /tmp/log.txt && cat /tmp/log.txt"
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
